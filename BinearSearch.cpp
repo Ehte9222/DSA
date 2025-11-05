@@ -18,7 +18,7 @@ else if (arr[mid] > element) {
 int main() { 
     int arr[] = {2, 4, 6, 8, 10, 12, 15, 16};
     int size = sizeof(arr)/sizeof(int);
-    int element = 12;
+    int element = 16;
     int searchIndex = binarySearch(arr, size, element);
     cout << "Element " << element << " found at index: " << searchIndex << endl;
     if (searchIndex == -1){

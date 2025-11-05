@@ -10,7 +10,7 @@ int linearsearch(int arr[], int size, int element) {
 int main() { 
     int arr[] = {2, 4, 6, 8, 10, 12, 15, 16};
     int size = sizeof(arr)/sizeof(int);
-    int element = 125;
+    int element = 10;
     int searchIndex = linearsearch(arr, size, element);
     cout << "Element " << element << " found at index: " << searchIndex << endl;
     if (searchIndex == -1){
